@@ -1,5 +1,8 @@
 streamlit
-ultralytics
-torch
+ultralytics==8.0.196
+torch==2.0.1+cpu
+torchvision==0.15.2+cpu
+torchaudio==2.0.2+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
 Pillow
 numpy
