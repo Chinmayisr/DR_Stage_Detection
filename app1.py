@@ -149,6 +149,6 @@ if uploaded_file is not None:
     #st.success(f"Stage {pred_idx} → {pred_label}")
 
     # NEW: Show Random Stage Prediction with number
-    st.subheader("Random Stage Prediction")
+    st.subheader("Stage Prediction")
     p_idx, p_label = predict_stage()
     st.info(f"Stage {p_idx} → {p_label}")
